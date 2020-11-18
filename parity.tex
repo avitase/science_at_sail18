@@ -1,0 +1,384 @@
+\section{Spiegelsymmetrie}
+
+\begin{frame}{Spiegelsymmetrie}
+    \centering
+    \textbf{Eines der beiden Bilder wurde gespiegelt ...}
+    \vspace*{.5cm}
+
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\centering
+			\begin{overpic}[width=\textwidth]{img/rostock.png}
+			\end{overpic}\\
+            \only<1>{\phantom{(original)}}%
+            \only<2>{(original)}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\centering
+            \reflectbox{%
+			\begin{overpic}[width=\textwidth]{img/rostock.png}
+            \end{overpic}}\\
+            \only<1>{\phantom{(gespiegelt)}}%
+            \only<2>{(gespiegelt)}
+		\end{column}
+	\end{columns}
+    \hfill \textbf{... welches?}
+\end{frame}
+
+\begin{frame}{Spiegelsymmetrie}
+    \centering
+    \textbf{Eines der beiden Bilder wurde gespiegelt ...}
+    \vspace*{.5cm}
+
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\centering
+            \reflectbox{%
+			\begin{overpic}[width=\textwidth,trim=10 0 10 0,clip]{img/ambulance.png}
+            \end{overpic}}\\
+            \only<1>{\phantom{(gespiegelt)}}%
+            \only<2>{(gespiegelt)}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\centering
+			\begin{overpic}[width=\textwidth,trim=10 0 10 0,clip]{img/ambulance.png}
+			\end{overpic}\\
+            \only<1>{\phantom{(original)}}%
+            \only<2>{(original)}
+		\end{column}
+	\end{columns}
+    \scalebox{.4}{(\textbf{Foto:} Ingy The Wingy)}\\
+    \hfill \textbf{... welches?}
+\end{frame}
+
+\begin{frame}{Spiegelsymmetrie}
+    \centering
+    \textbf{Eines der beiden Bilder wurde gespiegelt ...}
+    \vspace*{.5cm}
+
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\centering
+			\begin{overpic}[width=\textwidth]{img/mountains.png}
+			\end{overpic}\\
+            \only<1>{\phantom{(original)}}%
+            \only<2>{(original)}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\centering
+            \reflectbox{%
+			\begin{overpic}[width=\textwidth]{img/mountains.png}
+            \end{overpic}}\\
+            \only<1>{\phantom{(gespiegelt)}}%
+            \only<2>{(gespiegelt)}
+		\end{column}
+	\end{columns}
+    \hfill \textbf{... welches?}
+\end{frame}
+
+\begin{frame}{Spiegelsymmetrie}
+    \centering
+    \textbf{Eines der beiden Bilder wurde gespiegelt ...}
+    \vspace*{.5cm}
+
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\centering
+			\begin{overpic}[width=\textwidth]{img/donkey.png}
+			\end{overpic}\\
+            \only<1>{\phantom{(original)}}%
+            \only<2>{(original)}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\centering
+            \reflectbox{%
+			\begin{overpic}[width=\textwidth]{img/donkey.png}
+            \end{overpic}}\\
+            \only<1>{\phantom{(gespiegelt)}}%
+            \only<2>{(gespiegelt)}
+		\end{column}
+	\end{columns}
+    \hfill \textbf{... welches?}
+\end{frame}
+
+%\begin{frame}{Von Spiegelsymmetrien zur Parit\"atsverletzung}
+%    \begin{columns}[T]
+%		\begin{column}{.6\textwidth}
+%        Test auf \textbf{Spiegelsymmetrie}
+%        \begin{itemize}
+%            \item halbiere Objekt entlang einer Ebene
+%            \item halte Spiegel an Schnittebene
+%            \item gleichen sich das kombinierte Bild aus geteiltem Objekt \& Spiegelbild und unzerschnittenes Objekt?
+%            \begin{itemize}
+%                \item ja: {\color{vertexDarkRed}Spiegelsymmetrie}!
+%                \item nein: keine Spiegelsymmetrie (entlang dieser Schnittebene)
+%            \end{itemize}
+%        \end{itemize}
+%		\end{column}
+%		\begin{column}{.4\textwidth}
+%			\centering
+%			\begin{overpic}[width=\textwidth]{img/butterflies.png}
+%            \end{overpic}\\
+%            \scalebox{.4}{(\textbf{Foto:} Meyer A, PLoS Biology, Vol. 4/10/2006, e341)}
+%		\end{column}
+%	\end{columns}
+%\end{frame}
+
+\begin{frame}{Von Spiegelsymmetrien zur Parit\"atsverletzung}
+    \only<1>{%
+    \centering
+    \scalebox{2}{\textbf{Waren die Fotos spiegelsymmetrisch?}}}
+    \only<2->{%
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \textbf{Waren die Fotos spiegelsymmetrisch?}
+            \begin{itemize}
+                \item {\color{vertexDarkRed}Nein!}
+                \item Trotzdem waren wir bei einigen nicht in der Lage das Original und das Gespiegelte zu unterscheiden!?
+                \item Checkliste:
+                \begin{itemize}
+                    \item Sieht das Bild \textit{logisch} aus?
+                    \item Gibt es Referenzpunkte?
+                \end{itemize}
+            \end{itemize}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+			\begin{overpic}[height=.7\textheight,trim=200 0 200 0,clip]{img/donkey.png}
+            \end{overpic}
+		\end{column}
+    \end{columns}}
+\end{frame}
+
+\begin{frame}{Von Spiegelsymmetrien zur Parit\"atsverletzung}
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \textbf{Beispiel}
+            \begin{itemize}
+                \item Wir \textbf{wissen}, dass der gr\"une Leuchtturm \textbf{links} von der Hafenausfahrt steht.
+                \item Hier steht er aber \textbf{rechts}!
+                \item Also wurde das Bild gespiegelt!
+            \end{itemize}
+
+            \only<2,3>{%
+            \vspace*{.5cm}
+            \textbf{... und der Esel?}
+            \only<3>{%
+            \begin{itemize}
+                \item Hier fehlt ein Referenzpunkt!
+            \end{itemize}}}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+            \only<1,2>{%
+            \reflectbox{%
+			\begin{overpic}[height=.7\textheight,trim=200 0 200 0,clip]{img/rostock.png}
+            \end{overpic}}}%
+            \only<3>{%
+			\begin{overpic}[height=.7\textheight,trim=200 0 200 0,clip]{img/donkey.png}
+            \end{overpic}}
+		\end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Von Spiegelsymmetrien zur Parit\"atsverletzung}
+    \textbf{Offenbar gibt es einen Unterschied zwischen:}
+    \begin{itemize}
+        \item etw. sieht im Spiegel exakt \textbf{gleich} aus: \textcolor{vertexDarkRed}{\textit{Spiegelsymmetrisch}}
+        \item etw. sieht im Spiegel \textbf{logisch} aus: \textcolor{vertexDarkRed}{\textit{Parit\"atserhaltend}}
+    \end{itemize}
+    \vspace*{.5cm}
+    \centering
+    \textbf{Gibt es Bilder / Prozesse, die gespiegelt {\color{vertexDarkRed}\textit{unlogisch}} aussehen?}
+\end{frame}
+
+\begin{frame}{Von Spiegelsymmetrien zur Parit\"atsverletzung}
+    \begin{center}
+        \textbf{Gibt es Bilder / Prozesse, die gespiegelt {\color{vertexDarkRed}\textit{unlogisch}} aussehen?}
+    \end{center}
+
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \textbf{Sieht das Bild unlogisch aus?}
+            \begin{itemize}
+                \item<1-> w\"are es eine beliebige Hafeneinfahrt: {\color{vertexDarkRed}\textit{nein!}}
+                \item<1-> ... wir \textbf{wissen} blo\ss{}, dass der gr\"une Leuchtturm in Rostock \textbf{links} von der Hafenausfahrt steht.
+                \item<2-> K\"onnte man denn (theoretisch) die Hafenausfahrt genauso bauen, wie wir sie im gespiegelten Bild sehen? {\color{vertexDarkRed}\textit{ja!}}
+                \item<3-> Die Hafenausfahrt von Rostock ist damit \textbf{parit\"atserhaltend}
+            \end{itemize}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+            \reflectbox{%
+			\begin{overpic}[height=.7\textheight,trim=200 0 200 0,clip]{img/rostock.png}
+            \end{overpic}}
+		\end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+    \centering
+    \scalebox{2}{%
+        \textbf{Gibt es parit\"atsverletzende Prozesse?}
+    }
+    \begin{textblock*}{5cm}(10cm,6cm)
+        \only<2->{%
+        \begin{overpic}[height=2cm]{img/dracula.png}
+        \end{overpic}\\
+        \scalebox{.4}{(\textbf{Bild:} \texttt{https://www.lego.com} / \textit{low-resolution})}}
+    \end{textblock*}
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \textbf{Gedankenspiel}: Kommunikation mit einem Alien
+            \begin{itemize}
+                \item<1-> Wir wollen herausfinden ob sein Universum \textit{gespiegelt} ist ...
+                \item<1-> ... \textbf{ohne} vorbei fliegen zu m\"ussen.
+                \item<2-> K\"onnen wir ihm ein Experiment vorschlagen mit dem wir unsere beiden Definitionen von \textbf{links} und \textbf{rechts} vergleichen k\"onnen?
+                \begin{itemize}
+                    \item<2-> ja: {\color{vertexDarkRed}Parit\"atsverletzung}!
+                    \item<2-> nein: Natur / Universum ist parit\"atserhaltend
+                \end{itemize}
+            \end{itemize}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+            \begin{overpic}[height=.7\textheight]{img/et.png}
+            \end{overpic}\\
+            \scalebox{.4}{(\textbf{Poster:} John Alvin. (c) 1982 Universal Studios / \textit{low-resolution})}
+		\end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+    \begin{center}
+        \textbf{Ein Beispiel aus der Literatur}
+    \end{center}
+
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \enquote{Movements of the Lower Jaw of Cattle during Mastication.}\\
+            {\footnotesize P. Jordan and R. de L. Kronig. \textit{Nature} \textbf{120}, 809 (1927):}
+            \begin{itemize}
+                \item \enquote{[...] we shall denote as right- and left-circular cows those of which the chewing motion, viewed from the front, turns clockwise and counterclockwise respectively.}
+                \item \enquote{Statistical investigations on cows distributed over the northern part of S\ae{}lland, Denmark, led to the result that about \textbf{fifty-five per cent. were right-circular}, the rest left-circular animals.}
+            \end{itemize}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+			\begin{overpic}[height=.7\textheight]{img/cattlemastication_nature1927.png}
+            \end{overpic}
+		\end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \textbf{Sind K\"uhe also parit\"atsverletzend?}
+            \begin{itemize}
+                \item<1-> Kauen gespiegelte K\"uhe dominant in die entgegengesetzte Richtung?
+                \begin{itemize}
+                    \item<1-> Ja: K\"uhe sind \textbf{nicht parit\"atsverletzend}
+                    \item<1-> Nein: \textbf{definiere links} als dominante Kaurichtung von K\"uhen und bitte Alien das selbe Experiment durchzuf\"uhren$\color{vertexDarkRed}{}^\star$!
+                \end{itemize}
+                \item<2-> Technisch schwierig umsetzbar: Kuh muss vollst\"andig (mind. molekular) gespiegelt werden ...
+            \end{itemize}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+			\begin{overpic}[height=.7\textheight]{img/cow.png}
+            \put(50,50){\scalebox{4}{\textcolor{white}?}}
+            \put(30,70){\scalebox{1.5}{\textcolor{white}?}}
+            \put(50,70){\scalebox{1.5}{\textcolor{white}?}}
+            \put(65,75){\scalebox{1.}{\textcolor{white}?}}
+            \end{overpic}
+		\end{column}
+    \end{columns}
+    {\tiny $\color{vertexDarkRed}{}^\star$das Alien muss nat\"urlich seine eigenen K\"uhe verwenden!}
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+    \textbf{Ein praktikablerer Ansatz:}
+    \begin{itemize}
+        \item Betrachte experimentellen Aufbau im Spiegel
+        \item Baue jenes Spiegelbild exakt nach
+        \item Damit sieht man jetzt \textbf{3} experimentelle Aufbauten:
+        \begin{enumerate}
+            \item Original
+            \item Spiegelbild
+            \item Nachbau des Spiegelbildes
+        \end{enumerate}
+        \item Test: Verhalten sich (2.) und (3.) gleich?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+	\begin{columns}[T]
+		\begin{column}{.65\textwidth}
+            \textbf{Beispiel 1: Apfel f\"allt vom Baum}
+            \scalebox{.75}{Original (1), Spiegelbild (2), Nachbau (3)}
+            \begin{enumerate}
+                \item Apfel f\"allt vom Baum
+                \item Apfel f\"allt vom Baum
+                \item Apfel f\"allt (immer noch) vom Baum
+            \end{enumerate}
+            \begin{itemize}
+                \item \textbf{keine Parit\"atsverletzung!$\color{vertexDarkRed}{}^\star$}
+            \end{itemize}
+		\end{column}
+		\begin{column}{.35\textwidth}
+			\centering
+			\begin{overpic}[width=\textwidth]{img/newton.png}
+            \end{overpic}
+            \scalebox{.4}{(\textbf{Bild:} LadyofHats)}
+		\end{column}
+    \end{columns}
+    \tiny $\color{vertexDarkRed}{}^\star$tats\"achlich l\"asst sich allgemein zeigen, dass Gravitation \underline{nie} parit\"atsverletzend wirkt
+\end{frame}
+
+\begin{frame}{Suche nach Parit\"atsverletzung}
+	\begin{columns}[T]
+		\begin{column}{.6\textwidth}
+            \textbf{Beispiel 2: Kompass in magnetischer Spule}
+            \scalebox{.75}{Original (1), Spiegelbild (2), Nachbau (3)}
+            \only<1>{%
+            \begin{enumerate}
+                \item Nadel zeigt nach oben
+                \item Nadel zeigt nach \textbf{oben} (aber Windungsrichtung der Spule ist jetzt umgekehrt!)
+                \item Nadel zeigt nach \textbf{unten} (Windungsrichtung entspricht Stromrichtung)
+            \end{enumerate}
+            \begin{itemize}
+                \item \textbf{Parit\"atsverletzung?}
+            \end{itemize}}
+            \only<2>{%
+            \begin{itemize}
+                \item \textbf{Parit\"atsverletzung?}
+                \item ist die Nadel wirklich sensitiv auf die Magnetfeldrichtung?
+                \begin{itemize}
+                    \item \textbf{Jein}: eine Magnetfeldnadel hat zwei entgegengesetzte Pole. Welcher davon \textit{Nord-} und \textit{S\"udpol} genant wird \textbf{ist willk\"urlich}!
+                    \item Nach einmaliger (willk\"urlichen) Definition, k\"onnen alle anderen Nadeln an ersterer \textbf{geeicht} werden.
+                    \item Im Spiegel sind \textit{Nord-} und \textit{S\"udpol} \textbf{vertauscht}!
+                \end{itemize}
+            \end{itemize}}
+            \only<3>{%
+            \begin{itemize}
+                \item \textbf{Zusammenfassung}
+                \begin{itemize}
+                    \item \textbf{{\color{vertexDarkRed} keine Parit\"atsverletzung}} messbar$\color{vertexDarkRed}{}^\star$
+                    \item Die Richtung der Magnetfeldlinien sind tats\"achlich parit\"atsverletzend, wir k\"onnen aber ihre absolute Richtung nicht messen!
+                    \item Es reicht nicht im Spiegel \textit{etwas anderes} zu sehen als im Labor, sofern es konsistent ist!
+                \end{itemize}
+            \end{itemize}}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\centering
+			\begin{overpic}[width=\textwidth,trim=150 0 150 0,clip]{img/rotated_coil.png}
+            \end{overpic}
+            \scalebox{.4}{(\textbf{Foto:} Z\'atonyi S\'andor)}
+		\end{column}
+    \end{columns}
+    \only<3>{\tiny $\color{vertexDarkRed}{}^\star$zumindest nicht mit el.-magn. Effekten (Magnetischen Monopole ausgeschlossen)}
+\end{frame}

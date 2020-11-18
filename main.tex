@@ -1,0 +1,80 @@
+\documentclass[compress,aspectratio=1610]{beamer}
+
+\usepackage{polyglossia}
+\setmainlanguage{german}
+\usepackage{fontspec}
+\usepackage[autostyle]{csquotes}
+\usepackage{multicol}
+\usepackage[percent]{overpic}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{ulem}
+\usepackage{slashed}
+\usepackage{nicefrac}
+\usepackage{bm}
+\usepackage{siunitx}
+
+\usetheme{vertex}
+
+\linespread{1.1}
+
+\title{Spiegelwelten und Antimaterie am LHC}
+\subtitle{Science~@~Sail 2018}
+%\institute{Universit\"at Rostock / LHCb}
+%\date{12.08.2018}
+\author{Nis Meinert}
+
+\setbeamertemplate{section page}{
+    \begin{center}
+		\Huge\color{vertexDarkRed}\insertsection
+	\end{center}
+}
+
+\AtBeginSection{
+	\begin{frame}[plain,noframenumbering]
+		\sectionpage
+	\end{frame}
+}
+
+\setbeamertemplate{subsection page}{
+	\begin{center}
+		\color{vertexDarkRed}
+		\Huge\insertsection \\[10pt]
+		\Large\insertsubsection
+	\end{center}
+}
+
+\AtBeginSubsection{
+	\begin{frame}
+		\subsectionpage
+	\end{frame}
+}
+
+\begin{document}
+
+\begin{frame}[plain,noframenumbering]
+    \titlepage
+\end{frame}
+
+\input{me.tex}
+\input{intro.tex}
+
+\begin{frame}
+    \frametitle{Gliederung}
+    \centering
+    \scalebox{1.5}{\textbf{\textcolor{vertexDarkRed}{1.} Spiegelsymmetrie}}\\
+    \vspace{5mm}
+    \scalebox{1.5}{\textbf{\textcolor{vertexDarkRed}{2.} Wu-Experiment}}\\
+    \vspace{5mm}
+    \scalebox{1.5}{\textbf{\textcolor{vertexDarkRed}{3.} Antimaterie}}\\
+    \vspace{5mm}
+    \scalebox{1.5}{\textbf{\textcolor{vertexDarkRed}{4.} CP-Verletzung}}
+\end{frame}
+
+\input{parity.tex}
+\input{wu.tex}
+\input{cp.tex}
+\input{cpv.tex}
+\input{summary.tex}
+
+\end{document}
+
